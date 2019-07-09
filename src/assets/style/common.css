@@ -1,0 +1,188 @@
+html,body{
+	float:left;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-size: 12px;
+}
+html,body,button,label,input,i,p,div{
+	font-family: 微软雅黑,宋体;
+}
+.left{
+	float:left
+}
+.right{
+	float: right;
+}
+.Checkbox_button button{
+	float: left;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	margin-right: 10px;
+	outline: none;
+	position: relative;
+	margin-top: 1px;
+  background: url(/static/img/common/default/checkbox-normal.png);
+}
+.Checkbox_button.selected button{
+  background: url(/static/img/common/default/checkbox-selected.png) !important;
+}
+.Checkbox_button:hover button{
+  background: url(/static/img/common/default/checkbox-hover.png);
+  border:0 !important;
+
+}
+.Checkbox_button label{
+	line-height: 100%;
+}
+.Checkbox_button.checkbox_style2 button{
+  width: 14px;
+  height: 14px;
+}
+/*弹出框*/
+.modal{
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	left: 300px;
+	top: 100px;
+  z-index: 9999999;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
+.modal-header{
+	height: 48px;
+	line-height: 50px;
+	cursor: move;
+  border-bottom: 2px solid #eeeeee;
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+}
+.modal-header-title{
+	cursor: move;
+}
+.modal-header-close{
+	position: absolute;
+	right: 20px;
+	top: 17px;
+  color:black;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.modal-header-close:hover {
+  background:#e0e0e0;
+}
+.modal-header-close:before {
+  content:"×";
+  width: 10px;
+  height: 9px;
+  float:left;
+  font-size: 25px;
+  position: absolute;
+  top:-2px;
+  left:6px;
+}
+.modal-content{
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-top: 20px;
+}
+.modal-footer{
+  position: static;
+  margin-bottom: 12px;
+  border-top: 2px solid #efefef;
+  float: left;
+  padding-top: 12px;
+  width: 100%;
+  margin-top: 2px;
+}
+.modal-footer button{
+  width: 78px;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  color: #26384d;
+  background-color: #1ad78c;
+}
+.modal-footer button:first-child{
+  margin-right: 24px;
+}
+.modal-footer button.cancal{
+  background-color: #eeeeee;
+}
+.modal-footer button:hover{background-color:#17bd7a;}
+.modal-footer button.cancal:hover{background-color:#e0e0e0;}
+.modal-footer button[disabled]{background-color:#217766;}
+.modal-footer button[disabled].cancal:hover{background-color:#76818e;}
+
+.modal.confirm{
+	height: 180px;
+}
+
+/*通用样式*/
+.noselect,body,html {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+.extend_left,.extend_right{
+	border:0;
+	width: 12px;
+	height: 10px;
+	float: right;
+	margin-top: 9px;
+	margin-right: 5px;
+	outline: none;
+  background-repeat: no-repeat !important;
+}
+.extend_left{
+	background: url(/static/img/common/extend_left.png);
+	border:0;
+}
+.extend_right{
+	background: url(/static/img/common/extend_right.png);
+	border:0;
+}
+button{
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	color: #ffffff;
+	margin:0;
+	padding: 0;
+	outline: none;
+}
+.valign:before{
+	content:"";
+	display:inline-block;
+	vertical-align:middle;
+	height:100%;
+}
+.valign>*{
+	display:inline-block;
+	vertical-align:middle;
+}
+.ts_ent_ic{
+	background: url('/static/img/bigimg/ts_ent_ic.png');
+	background-repeat: no-repeat;
+}
+.ts_ent_ic_before:before{
+	background: url('/static/img/bigimg/ts_ent_ic.png');
+	background-repeat: no-repeat;
+}
+.ts_ent_ic_after:after{
+	background: url('/static/img/bigimg/ts_ent_ic.png');
+	background-repeat: no-repeat;
+}
+ul{
+  list-style: none;
+}

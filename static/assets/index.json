@@ -1,0 +1,22 @@
+{
+	"path": "models",
+	"names": [
+		"AQ",
+		"BJB",
+		"FQ",
+		"FW",
+		"FW-DB",
+		"FW-MAIL",
+		"FW-WEB",
+		"FW-WJ",
+		"HJ",
+		"JH",
+		"LY",
+		"MB",
+		"PC",
+		"TY"
+	],
+	"alt": {
+		"LY": "LuYouQi"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "layout":{
+    "node":{
+      "width": 92,
+      "height": 99,
+      "tree_width": 120,
+      "tree_height": 170,
+      "drag_lineWidth":3,
+      "lineWidth":3,
+      "lineColor":"#f9d238",
+      "drag_lineColor":"#ff3d3d"
+    },
+    "group":{
+      "textPosition":"Top_Right",
+      "fontColor":"10,255,0",
+      "font":"13px 微软雅黑",
+      "borderRadius":10,
+      "fillColor":"24,78,78",
+      "alpha":1
+    },
+    "scale":{
+      "min":1,
+      "max":200
+    }
+  }
+}

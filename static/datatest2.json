@@ -1,0 +1,205 @@
+{
+  "resultCode": "0",
+  "resultMsg": "操作成功",
+  "nodeTree": [
+    {
+      "nodeId": "748",
+      "items": []
+    },
+    {
+      "nodeId": "749",
+      "items": [
+        {
+          "nodeId": "758",
+          "items": []
+        },
+        {
+          "nodeId": "759",
+          "items": []
+        },
+        {
+          "nodeId": "760",
+          "items": []
+        }
+      ]
+    },
+    {
+      "nodeId": "750",
+      "items": []
+    },
+    {
+      "nodeId": "751",
+      "items": [
+            {
+              "nodeId": "766",
+              "items": []
+            },
+            {
+              "nodeId": "767",
+              "items": []
+        }]
+    }
+  ],
+  "nodeList": [
+    {
+      "nodeId": "748",
+      "nodeIp": "210.34.187.69",
+      "nodeName": "文件服务器",
+      "nodeType": "FW-WJ",
+      "busnId": "24",
+      "nodeStatus": "0"
+    },
+    {
+      "nodeId": "749",
+      "nodeIp": "210.46.130.188",
+      "nodeName": "文件服务器",
+      "nodeType": "HJ",
+      "busnId": "24",
+      "nodeStatus": "9"
+    },
+    {
+      "nodeId": "758",
+      "nodeIp": "139.199.146.176",
+      "nodeName": "文件服务器",
+      "nodeType": "FW-WJ",
+      "busnId": "27",
+      "nodeStatus": "9"
+    },
+    {
+      "nodeId": "759",
+      "nodeIp": "182.81.135.191",
+      "nodeName": "文件服务器",
+      "nodeType": "FW",
+      "busnId": "27",
+      "nodeStatus": "0"
+    },
+    {
+      "nodeId": "760",
+      "nodeIp": "123.234.45.43",
+      "nodeName": "文件服务器",
+      "nodeType": "AQ",
+      "busnId": "24",
+      "nodeStatus": "1"
+    },
+    {
+      "nodeId": "761",
+      "nodeIp": "222.46.79.69",
+      "nodeName": "文件服务器",
+      "nodeType": "FW-DB",
+      "busnId": "27",
+      "nodeStatus": "1"
+    },
+    {
+      "nodeId": "762",
+      "nodeIp": "36.62.179.7",
+      "nodeName": "文件服务器",
+      "nodeType": "AQ",
+      "busnId": "26",
+      "nodeStatus": "9"
+    },
+    {
+      "nodeId": "763",
+      "nodeIp": "182.91.102.19",
+      "nodeName": "文件服务器",
+      "nodeType": "PC",
+      "busnId": "28",
+      "nodeStatus": "9"
+    },
+    {
+      "nodeId": "764",
+      "nodeIp": "121.76.77.207",
+      "nodeName": "文件服务器",
+      "nodeType": "JH",
+      "busnId": "28",
+      "nodeStatus": "1"
+    },
+    {
+      "nodeId": "765",
+      "nodeIp": "222.64.145.127",
+      "nodeName": "文件服务器",
+      "nodeType": "FW-DB",
+      "busnId": "28",
+      "nodeStatus": "9"
+    },
+    {
+      "nodeId": "766",
+      "nodeIp": "222.65.205.85",
+      "nodeName": "文件服务器",
+      "nodeType": "PC",
+      "busnId": "24",
+      "nodeStatus": "9"
+    },
+    {
+      "nodeId": "767",
+      "nodeIp": "222.30.242.184",
+      "nodeName": "文件服务器",
+      "nodeType": "LY",
+      "busnId": "25",
+      "nodeStatus": "0"
+    },
+    {
+      "nodeId": "750",
+      "nodeIp": "210.34.202.151",
+      "nodeName": "文件服务器",
+      "nodeType": "LY",
+      "busnId": "28",
+      "nodeStatus": "1"
+    },
+    {
+      "nodeId": "751",
+      "nodeIp": "61.235.50.130",
+      "nodeName": "文件服务器",
+      "nodeType": "AQ",
+      "busnId": "24",
+      "nodeStatus": "0"
+    },
+    {
+      "nodeId": "752",
+      "nodeIp": "222.55.214.87",
+      "nodeName": "文件服务器",
+      "nodeType": "TY",
+      "busnId": "25",
+      "nodeStatus": "0"
+    },
+    {
+      "nodeId": "753",
+      "nodeIp": "182.91.148.28",
+      "nodeName": "文件服务器",
+      "nodeType": "JH",
+      "busnId": "24",
+      "nodeStatus": "1"
+    },
+    {
+      "nodeId": "754",
+      "nodeIp": "106.94.62.8",
+      "nodeName": "文件服务器",
+      "nodeType": "FW-DB",
+      "busnId": "26",
+      "nodeStatus": "0"
+    },
+    {
+      "nodeId": "755",
+      "nodeIp": "222.41.114.132",
+      "nodeName": "文件服务器",
+      "nodeType": "MB",
+      "busnId": "28",
+      "nodeStatus": "1"
+    },
+    {
+      "nodeId": "756",
+      "nodeIp": "210.35.55.205",
+      "nodeName": "文件服务器",
+      "nodeType": "FW-WEB",
+      "busnId": "28",
+      "nodeStatus": "9"
+    },
+    {
+      "nodeId": "757",
+      "nodeIp": "139.212.156.44",
+      "nodeName": "文件服务器",
+      "nodeType": "HJ",
+      "busnId": "23",
+      "nodeStatus": "1"
+    }
+  ]
+}

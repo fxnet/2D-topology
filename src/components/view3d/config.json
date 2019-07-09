@@ -1,0 +1,47 @@
+{
+	"layout": {
+		"modelMaxSize": 1,
+		"levelHeight": 10,
+		"levelHeightDecline": 0.8,
+		"nodeSpace": 2,
+		"nodeSpaceDeclineByLevel": 0.8,
+		"star_radius_min": 5,
+		"star_radius_inc": 3
+	},
+	"appearance": {
+		"ground": {
+			"color": "#336699",
+			"cellSize": 10,
+			"cellCount": 100
+		},
+		"connect": {
+			"color": "#99CCFF",
+			"size": 0.026
+		},
+		"attack": {
+			"color": "#ff3333",
+			"length": 1,
+			"radius": 0.1
+		},
+		"business": {
+			"color": "#00ff00",
+			"linewidth": 2,
+			"dashed": true,
+			"alignment": [-1, 0]
+		}
+	},
+	"debug": {
+		"showDebugText": true,
+		"debugTextVisibleDistance": 40
+	},
+	"animation": {
+		"viewToSpeed": 10,
+		"viewToMinTime": 1,
+		"viewToMaxTime": 3
+	},
+	"data": {
+		"attackRequestInterval": 2000,
+		"attackRequestCount":20,
+		"nodesInViewDistance": 20
+	}
+}
